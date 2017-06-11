@@ -1,0 +1,2 @@
+b = type(4.23)
+print (b)
