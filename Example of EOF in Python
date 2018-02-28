@@ -1,9 +1,0 @@
-while True:
-    try:
-        v = float(input())
-        d = float(input())
-        A = 3.14*((d/2)**2)
-        h = v/A
-        print("ALTURA = %.2f\nAREA = %.2f" % (h, A))
-    except EOFError:
-        break
