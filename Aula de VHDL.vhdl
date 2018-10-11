@@ -15,7 +15,7 @@ end Maquina
 Architecture Maquina_arc of Maquina is
 	signal aux = Natural :0;
 	begin 
-		Process(start, reset, clk, stop) is
+		Process(start, reset, clk, stop) is 
 			Begin
 				if reset = '0' then
 					state <= incial;
