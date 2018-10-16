@@ -1,4 +1,4 @@
- library ieee;
+library ieee;
 USE IEEE.std_logic_1164.all;
 Entity Maquina is
 	Port(
